@@ -17,7 +17,26 @@
         canvas{
             box-shadow: black 20px 10px 50px;
         }
+
+
+
+        input{
+            width: 200px;
+            height: 7%;
+            background-color: orangered;
+            font-size: 25px;
+        }
     </style>
+
+
+
+    <script type="text/javascript">
+        function RefreshPage(){
+            if(confirm("Are you sure you want to restart the game?")){
+                location.reload();
+            }
+        } 
+    </script>
 </head>
 
 <body>
@@ -25,5 +44,9 @@
 
     <canvas id="game" width="400" height="400"></canvas>
     <script src="index.js"></script>
+
+    <br><br>
+    <input type ="button" value ="Restart Game" onclick="RefreshPage()">
+    
 </body>
 </html>
