@@ -1,1 +1,1 @@
-# snekgame it's a snekgame
+ it's a snekgame
